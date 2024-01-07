@@ -1,0 +1,30 @@
+/* new year banner starts here */
+.new-year{
+    font-family: 'Merriweather', serif;
+   
+}
+.new-year img{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 140px;
+height: 600px;
+border-radius: 16px;
+}
+.new-year h3{
+    position: relative;
+    text-align: center;
+    top: 177px;
+    color: #FFFFFF;
+    font-weight: 400;
+   size: 32px;
+}
+.new-year h1{
+    gap: 0px;
+    position: relative;
+    top: 233px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 900;
+    size: 72px;
+}
+/* discount banner starts here */

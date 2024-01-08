@@ -16,7 +16,7 @@ border-radius: 16px;
     top: 177px;
     color: #FFFFFF;
     font-weight: 400;
-   size: 32px;
+   font-size: 32px;
 }
 .new-year h1{
     gap: 0px;
@@ -25,6 +25,93 @@ border-radius: 16px;
     text-align: center;
     color: #FFFFFF;
     font-weight: 900;
-    size: 72px;
+    font-size: 72px;
 }
 /* discount banner starts here */
+.discount{
+height: 900px;
+width: 804px;
+position: absolute;
+top:650px;
+left: 399px ;
+}
+.discount-header{
+    font-family: Inter;
+    color:#FF0000 ;
+text-align: center;
+font-size: 88px;
+margin-bottom: 5px;
+}
+.discount-description{
+    font-size: 24px;
+    text-align: center;
+}
+.discount img {
+    width:804px ;
+    height: 500px;
+    margin: 0;
+    position:relative;
+    bottom: 0px;
+}
+.discount h2{
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+}
+span{
+    gap: 10px;
+font-size: 48px;
+color: #070211;
+font-weight: 700;
+}
+/* discount banner starts here */
+.invitation{
+    background-image: url(/resources/Vectorrr.png);
+    top: 1696px;
+    height: 600px;
+    width: 1320px;
+    margin-left: 140px ;
+    position: absolute;
+}
+.invitation-header
+{
+    position: relative;
+    top: 126px;
+    left: 126px;
+    
+    
+}
+.invitation h1{
+    font-weight: 900;
+    font-size: 64px;
+    width: 550px; 
+    height: 176px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.invitation h5{
+    margin-top: 0px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+height: 60px;
+}
+.invitation button{
+position: relative;
+width: 103px;
+height: 24px;
+top: -300px;
+left: 158px;
+color: #FFF;
+text-align: center;
+font-family: Inter; 
+background-color: #070211;
+border: none;
+}
+.invitation img{
+    position: relative;
+top: -280px;
+    left: 800px;
+}

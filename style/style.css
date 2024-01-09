@@ -154,24 +154,15 @@ top:2400px ;
     border-radius: 8px;
 
 }
-/* details banner starts here */
-.bonus-section{
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 140px;
-height: 482px;
-border-radius: 16px;
-width: 1320px;
-top:3000px ;
-}
+
 /*advertising*/
 .advertise{
     position: absolute;
     margin-top: 50px;
     margin-left: 140px;  
-    top:3500px;
+    top:3050px;
     width: 1600px;
-height: 7335px;
+    margin-bottom: 0px;
 }
 .advertise-header{
     color: #F00;
@@ -192,8 +183,128 @@ margin: 0px;
 .advertise-description{
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
 font-size: 20px;
 font-style: normal;
 margin-top: 22px;
 }
+/*address*/
+.address{
+    position: absolute;
+
+    margin-left: 140px;  
+    top:4500px;
+    width: 1320px;
+height: 616px;
+border-radius: 16px;
+background-color: rgba(255, 0, 0, 0.05);
+}
+.address img{
+  position: relative;
+    top: 80px;
+    left: 585px;
+}
+.address h1{
+    position: relative;
+    top: 40px;
+    left: 484px;
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.address h6{
+    position:relative; 
+    top:22px;
+    left:212px;
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+width: 896px;
+}
+.address-button{
+    text-align: center;
+    position: relative;
+    left: 250px;
+    top: 48px;
+    width: 648px;
+height: 72px;
+border-radius: 50px 0px 0px 50px;
+border: none;
+font-size: 18px;
+}
+.subscribe-button{
+    position: relative;
+width: 210px;
+height: 77px;
+border-radius: 0px 50px 50px 0px;
+border: none;
+background-color: #F00;
+top: 48px;
+left: 240px;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+}
+/* footer */
+.footer-section{
+    position: absolute;
+    top: 5300px;
+    width: 1600px; 
+    background: #070211;
+}
+.footer-section h6{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+
+}
+.footer-descriotion{
+    position: relative;
+    display: flex;
+    width: 575pxpx;
+    top: 120px;
+    left: 140px;
+}
+.footer-mobile{
+    position: relative;
+    left: 800px;
+    display: flex;
+margin: 0px;
+padding: 0px;
+}
+.footer-website{
+    position: relative;
+    left: 800px;
+margin-bottom: 0px;
+padding: 0px;
+}
+.footer-images{
+    text-align: center;
+   margin-right: 5px;
+}
+.footer-section img{
+    margin-right: 25px;
+}
+.contact-image{
+    height: 24px;
+    width: 24px;
+}
+.footer-section button{
+    position: relative;
+    left: 1315px;
+    top: -60px;
+    font-size: 24px;
+    background-color: #070211;
+    color: #FFFFFF;
+    border: none;
+}
+  .copyright{
+    position: relative;
+    left: 100px;
+  }
